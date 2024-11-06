@@ -1,0 +1,37 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  margin: 70px auto;
+}
+
+.container h1 {
+  font-size: 75px;
+  font-weight: 700;
+  margin: 30px 0;
+  font-family: fantasy;
+}
+
+.container p {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.container button {
+  padding: 20px 40px;
+  background-color: #2196F3;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: background-color .4s;
+}
+
+.container button:hover {
+  background-color: #4CAF50;
+}
